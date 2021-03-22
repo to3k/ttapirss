@@ -22,3 +22,9 @@ Jak używać?
 1. Aby utworzyć kanał RSS należy oddać rekord do bazy MySQL. Konieczne jest wypełnienie jedynie wartości nazwa (dowolna nazwa pod jaką będzie widniał rekord) i user_nick (nick użytkownika na Twitterze @xxx).
 ```INSERT INTO `ttapirss` (`nazwa`, `user_nick`) VALUES ('<nazwa_użytkownika>', '<nick_użytkownika>');```
 2. Po uruchomieniu pliku get_tweets.php (ręcznie lub przez cron) utworzy się na FTP plik twitter_<nick_użytkownika>.rss, który wystarczy podlinkować w czytniku RSS (np. InoReader).
+
+Jak to wygląda?
+------------
+Przykłady z InoReader na komputerze i telefonie:
+<img src="https://github.com/to3k/ttapirss/blob/main/sample_desktop.png?raw=true" />
+<img width="300px" src="https://github.com/to3k/ttapirss/blob/main/sample_mobile.png?raw=true" />
