@@ -1,12 +1,14 @@
 ttapirss
 ===============
 Twitter API RSS Feed
+------------
+Od zawsze najwygodniejszą formą konsumowania treści były dla mnie kanały RSS, a Twitter to medium społecznościowe, którego najczęściej i najaktywniej używam. Postanowiłem połączyć te dwie rzeczy. Niestety większość narzędzi, tworzących kanały RSS dla kont na Twitterze, jest płatnych. Oczywiście jest darmowy nitter.net, którego używałem do tej pory, jednak ostatnio zauważyłem jego problemy ze stabilnością, które są zapewne spowodowane sporą popularnością serwisu oraz ograniczeniami API Twittera dla deweloperów. W takiej sytuacji najlepiej siąść i stworzyć swoje własne narzędzie, które będzie szyte na miarę. Zrobiłem pod siebie, ale wrzucam tutaj, bo może komuś się przyda :)
 
 Instalacja
 ------------
 1. Uzyskać dostęp do API Twittera: https://developer.twitter.com/en/apply-for-access
 2. Wrzucić na FTP:
-+ TwitterAPIExchange.php - plik zapożyczony z: https://github.com/J7mbo/twitter-api-php
++ TwitterAPIExchange.php - framework dla API Twittera zapożyczony z: https://github.com/J7mbo/twitter-api-php (działa z każdą wersją API - v1.1/v2)
 + api_config.php - wypełnić klucze i tokeny uzykasne z pkt. 1
 + (opcjonalne) favicon.ico - favikonka twittera, która będzie się wyświetlać w czytniku RSS
 + get_tweets.php - główny plik (pobiera dane z Twittera, formatuje je i tworzy pliki RSS kanałów)
